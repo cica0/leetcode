@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/leetcode/contest43/1.h
+
+/home/chang/leetcode/contest43/2.h
+
+/home/chang/leetcode/contest43/3.h
+
+/home/chang/leetcode/contest43/4.h
+
+/home/chang/leetcode/contest43/5.h
+
+/home/chang/leetcode/contest43/main.cpp
+iostream
+-
+string
+-
+map
+-
+vector
+-
+1.h
+/home/chang/leetcode/contest43/1.h
+2.h
+/home/chang/leetcode/contest43/2.h
+3.h
+/home/chang/leetcode/contest43/3.h
+4.h
+/home/chang/leetcode/contest43/4.h
+5.h
+/home/chang/leetcode/contest43/5.h
+
