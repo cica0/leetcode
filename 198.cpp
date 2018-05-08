@@ -7,15 +7,14 @@
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        if (nums.size() == 0)
-            return 0;
+        if (nums.size() == 0) return 0;
         int odd = 0;
         int even = 0;
         for (unsigned int i =0; i<nums.size(); ++i) {
             if(i%2)
-                odd += nums[i];
+                odd = max(nums[i]+odd, even);
             else
-                even += nums[i];
+                even = max(nums[i]+even, odd);
         }
         return odd>even?odd:even;
     }
